@@ -6,6 +6,7 @@
   "author": "David Schnurr",
   "license": "MIT",
   "main": "dist/ckmeans.cjs.js",
+  "types": "index.d.ts",
   "module": "dist/ckmeans.esm.js",
   "browser": "dist/ckmeans.umd.js",
   "scripts": {

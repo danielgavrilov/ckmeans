@@ -206,11 +206,10 @@ function fillMatrices(data, matrix, backtrackMatrix) {
  * @param {Array<number>} data input data, as an array of number values
  * @param {number} nClusters number of desired classes. This cannot be
  * greater than the number of values in the data array.
- * @returns {Array<Array<number>>} clustered input
+ * @returns {Array<number>} the first value in each cluster
  * @example
  * ckmeans([-1, 2, -1, 2, 4, 5, 6, -1, 2, -1], 3);
- * // The input, clustered into groups of similar numbers.
- * //= [[-1, -1, -1, -1], [2, 2, 2], [4, 5, 6]]);
+ * //= [-1, 2, 4];
  */
 function ckmeans(data, nClusters) {
   if (nClusters > data.length) {
